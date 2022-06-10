@@ -1,0 +1,70 @@
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    background-color:  #FCFEFD;
+  }
+  
+  .main-header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#E96D63; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ 
+  div.first {
+    background-image: url("images/bike_pic2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  div.container-fluid {
+    margin-left: -16px;
+    margin-top:-8px;
+    margin-bottom:-8px;
+    width: 100%;
+    background-color:#4A789C;
+  }
+
+  .nav-link{
+    color: white;
+  }
+
+  h3 { 
+    text-align: center;
+    color: #E96D63;
+    text-transform: uppercase;
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  }
+
+  .login{
+    width: 500px;
+    border: 10px solid #7FCA9F;
+    padding: 50px;
+    margin: 20px;
+    background-color: #85C1F5;
+    margin-left:450px;
+  }
+
+  div.about-container{
+    width: 500px;
+    border: 10px solid #7FCA9F;
+    padding: 50px;
+    margin: 20px;
+    margin-left:450px;
+    background-color: #85C1F5;
+    text-align:center;
+  }
+  .nav-contact{
+    text-align:right;
+  }
